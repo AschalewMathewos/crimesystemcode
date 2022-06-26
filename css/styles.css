@@ -1,0 +1,106 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#C0C0C0  ; color:#7d7268; font:11px/14px Tahoma, Geneva, sans-serif; padding-top:8px}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:11px/14px Tahoma, sans-serif; color:#d07f22; text-decoration:underline;}
+p a:hover{ color:#000; text-decoration:none;}
+
+.headline{font:12px/14px Tahoma, Geneva, sans-serif; color:#8c0f06; font-weight:bold}
+.headline2{font:11px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#d07f22;}
+
+#container{width:644px; margin:0 auto;}
+
+/* HEADER */
+
+#headerPan{width:644px; height:314px; position:relative; margin:0 auto; background:url(../images/b_header.jpg) 0 0 no-repeat}
+
+#headerPan img#logo{position:absolute; top:75px; left:19px}
+
+#headerPan ul.menu{position:absolute; top:16px; left:23px; width:620px}
+#headerPan ul.menu li{float:left; height:16px; margin-right:27px}
+#headerPan ul.menu li a{ height:16px;  display:block; text-indent:-20000px; }
+#headerPan ul.menu li a:hover{height:16px; }
+
+#headerPan ul.menu li.b01 a{ width:69px;  background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#headerPan ul.menu li.b01 a:hover{ width:69px;  background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#headerPan ul.menu li.b02 a{ width:60px;  background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#headerPan ul.menu li.b02 a:hover{ width:60px;  background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#headerPan ul.menu li.b03 a{ width:82px;  background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#headerPan ul.menu li.b03 a:hover{ width:82px;  background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#headerPan ul.menu li.b04 a{ width:93px;  background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#headerPan ul.menu li.b04 a:hover{ width:93px;  background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#headerPan ul.menu li.b05 {margin-right:0}
+#headerPan ul.menu li.b05 a{ width:71px;  background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#headerPan ul.menu li.b05 a:hover{ width:71px;  background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+#headerPan ul.menu li.linem{width:1px; background:url(../images/spacer_m.gif) 0 0 no-repeat}
+
+
+/* content */
+
+#contentPan{width:644px; position:relative; margin:0 auto; background:#fff}
+
+#c1{width:170px; margin: 24px 25px 0 23px; float:left; display:inline}
+#c2{width:400px; margin: 24px 0 0 0; float:left;}
+
+#news {margin-bottom:20px}
+#news h2{height:17px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:15px}
+#news p {margin-bottom:15px}
+#news p span{margin-bottom:7px; display:block; padding-left:20px; background:url(../images/icon_news.gif) 0 3px no-repeat; font:12px/14px Tahoma, Geneva, sans-serif; color:#d07f22; font-weight:bold}
+#news p a{font:10px/14px Tahoma, sans-serif; color:#7d7268; text-decoration:underline;}
+#news p a:hover{ color:#000; text-decoration:none;}
+
+#testimonials h2{height:17px; position:relative; background:url(../images/h_testimonials.gif) 0 0 no-repeat; margin-bottom:15px}
+#testimonials p span{margin-bottom:10px; display:block; padding-left:24px; background:url(../images/icon_testimonials.gif) 0 0 no-repeat; font:12px/14px Tahoma, Geneva, sans-serif; color:#8c0f06; font-weight:bold}
+
+#welcome {margin-bottom:45px}
+#welcome h2{height:35px; position:relative; background:url(../images/system.jpg) 0 0 no-repeat; margin-bottom:5px}
+#welcome p.headline2{margin-bottom:12px; padding-bottom:10px; border-bottom:#2e2e2e 1px dotted}
+#welcome img{float:left; margin-right:13px}
+
+#featured h2{height:17px; position:relative; background:url(../images/h_featured.gif) 0 0 no-repeat; margin-bottom:15px}
+#featured img{float:left; margin-right:13px}
+#featured .clear{height:20px}
+
+/* footer */
+
+#footerPan{width:644px; height:64px;  margin:0 auto}
+#footerPan p{padding: 15px 0 0 0; font:11px/16px Tahoma, Geneva, sans-serif; font-weight:normal; text-align:center; color:#fdf4b5;}
+#footerPan p span{ font:11px/14px  Tahoma, Geneva, sans-serif; color:#fdf4b5;}
+#footerPan p a{ font:11px/14px  Tahoma, Geneva, sans-serif; color:#fdf4b5; text-decoration:none; padding: 0 3px }
+#footerPan p a:hover{ font:11px/14px  Tahoma, Geneva, sans-serif; text-decoration:underline;}
+
+
+
+.gallery{
+  width: 400px;
+  margin: 20px auto;
+}
+
+.gallery h2{
+  text-align:center;
+  color: #000;
+}
+
+.gallery li{
+  height:180px;
+  width:180px;
+  float: left;
+  display: inline;
+  background:#000;
+}
+
+.gallery li a{
+  opacity: 0.6;
+}
+
+.gallery li a:hover{
+  opacity:1;
+}
